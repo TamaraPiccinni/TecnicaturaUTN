@@ -22,10 +22,10 @@ else:
 #     numTexto= 'Has ingresado un numero fuera de rando'
 # print(f'El número ingresado es: {num} - {numTexto}')
 
-condicion = True
+#condicion = True
 # if condicion:
 #     print('Condicion Verdadera')
 # else:
 #     print('Condicion Falsa')
 
-print('condicion verdadera') if condicion else print('condicion Falsa')
+#print('condicion verdadera') if condicion else print('condicion Falsa')
