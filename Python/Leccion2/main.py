@@ -16,6 +16,8 @@ else:
 #     numTexto = 'Número uno'
 # elif num == 2:
 #     numTexto = 'Número dos'
+# elif num == 3:
+#      numTexto = 'Numero tres'
 # else:
 #     numTexto= 'Has ingresado un numero fuera de rando'
 # print(f'El número ingresado es: {num} - {numTexto}')
