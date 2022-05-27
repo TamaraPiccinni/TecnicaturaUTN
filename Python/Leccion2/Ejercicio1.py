@@ -1,6 +1,6 @@
 '''
 Ejercicio 1
-debemos plasmar la expresion en uina expresion algoritmica,
+debemos plasmar la expresion en una expresion algoritmica,
 osea en codigo
 '''
 
