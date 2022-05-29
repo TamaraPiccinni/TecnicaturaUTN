@@ -2,6 +2,7 @@
 Ejercicio 1
 debemos plasmar la expresion en una expresion algoritmica,
 osea en codigo
+
 '''
 
 a = float(input('Digite el valor de a:'))
