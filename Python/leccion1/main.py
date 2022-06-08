@@ -9,7 +9,7 @@ z = x + y
 print(id(x))
 # las literales se escriben x680
 
-# Tipos int,float,Btring,Bool
+# Tipos int,float,string,Bool
 a = 10
 print(a)
 print(type(a))
@@ -199,6 +199,7 @@ if num > num2:
 else:
     print(f"{num2} es mayor a {num}")
 '''
+'''
 # tienda de libros
 print("Ingrese los suguientes datos del libro:")
 nombre = input("digite el nombre del libro:")
@@ -219,3 +220,26 @@ print(f"""
       envio Gratuito?: {envioGratuito}
 """)
 #probando los arreglos de git
+'''
+'''
+print("Ingrese una planta: ")
+nombre = input()
+if nombre == "ESPATIFILIO":
+    print("Si, ¡El ESPATIFILIO! es la mejor planta de todos los tiempos!")
+elif nombre == "espatifilo":
+    print("No, ¡quiero un gran ESPATIFILIO!")
+else:
+    print(f"¡ESPATIFILIO!, ¡No,"+nombre+ "!")
+'''
+income = float(input("Introduce el ingreso anual: "))
+
+if income < 85528:
+	tax = income * 0.18 - 556.02
+else:
+	tax = (income - 85528) * 0.32 + 14839.02
+
+if tax < 0.0:
+	tax = 0.0
+
+tax = round(tax, 0)
+print("El impuesto es:", tax, "pesos")
