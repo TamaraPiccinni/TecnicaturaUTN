@@ -54,4 +54,38 @@ print(nombres)
 
 #eliminar la lista
 del nombres
-print(nombres) #da error xq lo elimine la linea 56
+#print(nombres) #da error xq lo elimine la linea 56
+
+#Definimos una tupla
+cocina = ('cuchara', 'cuchillo', 'tenedor')
+print(len(cocina))
+
+#Acceder a un elemento, para esto usamos [] no ()
+print(cocina[0])
+
+#mostrar de manera inversa
+print(cocina[-1])
+
+#acceder a un rango
+print(cocina[0:1]) #muestra solo el 0 xq siempre muestra uno menos, no muestra el ultimo
+print(cocina[0:2])
+#ejemplo
+#verderuas = ('papa') #esto es una strin, cadena porque no tiene la coma
+verduras = ('papa', ) #este si es tiene un elemento y una coma
+
+#Recorremos los elementos de la tupla
+for cocinar in cocina:
+    print(cocinar, end=' ') #agrego end para que deje de usar \n para saltos de linea y se vea en una lienea
+'''
+cocina[0] = 'plato'
+print(cocina) #da error xq no de puede, debe modificar
+'''
+
+#si hace falta modificarla (no es lo ideal, no es una buena practica, lo convertimos en lista
+cocinaLista = list(cocina)
+cocinaLista[0] = 'Palto'
+cocina = tuple(cocinaLista)
+print('\n', cocina)
+
+#eliminamos
+#del cocina

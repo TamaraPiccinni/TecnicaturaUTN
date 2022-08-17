@@ -28,7 +28,6 @@ else:
 print(f'La calificacion correspondiente es: {mensaje} ')
 
 '''
-'''
 #opcion del profe
 puntaje = int(input('Digite el puntaje del 0 al 10: '))
 mensaje = None
@@ -43,6 +42,5 @@ elif 6 <= puntaje < 7:
 elif 0 <= puntaje < 6:
     print('F')
 else:
-    print('Valor incorrecto'=
+    print('Valor incorrecto')
 
-'''
