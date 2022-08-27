@@ -16,9 +16,9 @@ public class EjercicioWhile {
     // while es mientras hacer y do while es repetir hasta que
     
     //for (aqui declara la variable; es la condicion; es el incremento ){
-    for (var contando = 0; contando <7; contando++){
+    for (var contando = 0; contando <7; contando++){ //aqui pongo la llave xq si es mas de una linea la necesita
         System.out.println("contando = " + contando);
-        
+        //for(int i=1;i!=0;i++){ System.out.println("Print eterno"); } esta es una forma correcta,  ya que siempre va a ser entero
     }
     }
 }
