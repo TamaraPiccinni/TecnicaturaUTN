@@ -17,8 +17,18 @@ public class EjercicioWhile {
     
     //for (aqui declara la variable; es la condicion; es el incremento ){
     for (var contando = 0; contando <7; contando++){ //aqui pongo la llave xq si es mas de una linea la necesita
-        System.out.println("contando = " + contando);
-        //for(int i=1;i!=0;i++){ System.out.println("Print eterno"); } esta es una forma correcta,  ya que siempre va a ser entero
-    }
+        if (contando % 2 == 0){
+            System.out.println("contando = " + contando);
+            //for(int i=1;i!=0;i++){ System.out.println("Print eterno"); } esta es una forma correcta,  ya que siempre va a ser entero
+            break;
+            }
+        }
+    
+    for (var contando = 0; contando <7; contando++){ //aqui pongo la llave xq si es mas de una linea la necesita
+        if (contando % 2 != 0){
+            continue; //va a la sig interaccion
+            }
+            System.out.println("contando = " + contando);
+        }
     }
 }
