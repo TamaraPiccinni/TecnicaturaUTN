@@ -15,15 +15,16 @@ public class EjercicioWhile {
         }while (contador < 7); //si pongo <=7 mostrara el 7 pero seran 8 nun no 7
     // while es mientras hacer y do while es repetir hasta que
     
+    //uso de las parabras break y continuo junto a las etiquetas (labels)
+    inicio:
     //for (aqui declara la variable; es la condicion; es el incremento ){
     for (var contando = 0; contando <7; contando++){ //aqui pongo la llave xq si es mas de una linea la necesita
         if (contando % 2 == 0){
             System.out.println("contando = " + contando);
             //for(int i=1;i!=0;i++){ System.out.println("Print eterno"); } esta es una forma correcta,  ya que siempre va a ser entero
-            break;
+            break inicio;
             }
         }
-    
     for (var contando = 0; contando <7; contando++){ //aqui pongo la llave xq si es mas de una linea la necesita
         if (contando % 2 != 0){
             continue; //va a la sig interaccion
