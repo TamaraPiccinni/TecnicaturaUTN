@@ -3,6 +3,9 @@
 #Reparar errores
 #Crear proyectos
 
+#Colecciones en Python
+#las Listas en otros lenguajes se lo conoce como arreglos o vectores
+
 # lista = Ariel , Liliana, Natalia, Osvaldo
 # indices   0       1       2         3
 
@@ -31,8 +34,13 @@ else:
 # Preguntamos cunatos elementos tiene
 print(len(nombres)) #le pasamos como parametro la lita
 
-#agregamos un elemento
+#agregamos un elemento, puede tener diferentes tipos de datos
 nombres.append('Marcelo4')
+nombres.append([1, 2, 3])
+nombres.append(True)
+nombre.append(10.45)
+nombres.append([4, 5])
+nombres.append(7)
 print(nombres)
 
 #insertamos un elemento en un indice especifico
@@ -139,10 +147,99 @@ diccionario = {
     'POO':'Programacion Orientada a objetos',
     'SABD':'Sistema de Administracion de Base de Datos'
     }
+
+#vemos el largo o cantidad de elementos
+print(len(diccionario))
 print(diccionario)
 
+#Acceder a un diccionario con la llave (key)
+print(diccionario['IDE'])
 
-#Repaso de ser o conjunto
+#otra forma de recuperar una llave
+print(diccionario.get('POO')) #get = obtener
+print(diccionario.get('SABD'))
+
+#Modificar los elementos
+diccionario['IDE'] = 'Entorno de Desarrollo Integrado'
+print(diccionario)
+
+#Como recorrer los elementos
+for termino in diccionario:
+    print(termino)
+
+#asi da error necesitamos una funcion
+#for termino, valor in diccionario:
+#    print(termino, valor)
+
+for termino, valor in diccionario.items():
+    print(termino, valor)
+
+#Otras maneras de acceder a un diccionario
+for termino in diccionario.keys(): #estamos usando una funcion
+    print(termino) #muestra solo las llaves
+
+for valor in diccionario.values(): #Estamos usando una funcion para acceder al valor
+    print(valor)
+
+#comprobamos la existencia de algun elemento
+print('IDE' in diccionario) #devuelve valor booleano
+
+#Agregar un elemento
+diccionario['PK'] = 'Primary Key'
+print(diccionario)
+
+#Elimanos un elemento
+diccionario.pop('SABD')
+print(diccionario)
+
+#vaciar un diccionario
+diccionario.clear()
+print(diccionario)
+
+#Eliminar diccionario
+del diccionario #el diccionario de borro
+#print(diccionario) #da error xq ya no esta
+
+#concatenar Listas
+lista1 = [1, 2, 3, 1]
+lista2 = [4, 5, 6, 1]
+lista3 = lista1+lista2 # Concatenamos
+print(lista3)
+
+#para agregar varios elementos en la lista
+lista3.extend([7, 8, 9, 1]) # función para agregar varios elementos
+print(lista3)
+
+#para ver en que lugar esta el elemento
+print(lista3.index(5))
+#print(lista3.index(0)) #da error si un elemento no esta
+
+#para ce cuantos valores repetidos hay dentro de una lista
+print(lista3.count(1))
+
+#Poner la lista descendente o ascendente, al reves
+lista3.reverse()
+print(lista3)
+
+#Para que una lista se multiplique repitiendo sus elementos
+lista3 = [1, 2, 3] * 2
+print(lista3)
+
+#Metodos de ordenamiento
+lista3.sort() #los ordea ascendente
+print(lista3)
+lista3.sort(reverse=True) #descendente
+print(lista3)
+
+#repaso Tupla puede tener diferentes de tipos de datos dentro
+tupla = (4, 'Hola', 6.78, [1, 2, 78], 4, 'Hola')
+print(tupla)
+
+#puedo convertir la lista en tupla y viceversa
+#puedo usar funciones len, index, count
+print(4 in tupla) # buscar un elemento, booleana. puedo preguntar si esta o no esta con not
+
+#Repaso de set o conjunto
 #para definir un conjunto
 conjunto2 =set() #este se puede inicializar vacio
 conjunto1 = {'bye',} #con llaves debe tener contenido
@@ -213,7 +310,7 @@ seleccionArgentina = {
     1: {'Nombre' : 'Franco Armani', 'Edad': 35, 'Altura': 1.89, 'Precio': '3.5 Millones', 'Posicion': 'Portero'},
 }
 print(seleccionArgentina)
-print(seleccionArgentina[10]) #solo muetra a messi
+print(seleccionArgentina[10]) #solo muestra a messi
 print(seleccionArgentina.values()) #solo los datos
 
 #print mas ordenado manera comun
@@ -232,6 +329,8 @@ for llave, valor in seleccionArgentina.items():
 print('Tenemos cargados en el diccionario: ', end=' ')
 print(len(seleccionArgentina))
 
+#seleccionArgentina['23'] = '23: {'Nombre' : 'Emiliano Martinez', 'Edad': 29, 'Altura': 1.96, 'Precio': '28 Millones', 'Posicion': 'Portero'}'
+#print(seleccionArgentina)
 #23: {'Nombre' : 'Emiliano Martinez', 'Edad': 29, 'Altura': 1.96, 'Precio': '28 Millones', 'Posicion': 'Portero'},
 #6: {'Nombre' : 'German Pezzella', 'Edad': 31, 'Altura': 1.83, 'Precio': '5 Millones', 'Posicion': 'Defensa Central'},
 #14: {'Nombre' : 'Exequiel Palacios', 'Edad': 23, 'Altura': 1.78, 'Precio': '22 Millones', 'Posicion': 'Centrocampista'},
