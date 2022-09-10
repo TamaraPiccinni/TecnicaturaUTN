@@ -38,7 +38,7 @@ print(len(nombres)) #le pasamos como parametro la lita
 nombres.append('Marcelo4')
 nombres.append([1, 2, 3])
 nombres.append(True)
-nombre.append(10.45)
+nombres.append(10.45)
 nombres.append([4, 5])
 nombres.append(7)
 print(nombres)
@@ -305,7 +305,7 @@ print(diccionario2)
 seleccionArgentina = {
     10: {'Nombre' : 'Lionel Messi', 'Edad': 35, 'Altura': 1.70, 'Precio': '50 Millones', 'Posicion': 'Extremo Derecho'},
     11: {'Nombre' : 'Angel Di María', 'Edad': 34, 'Altura': 1.80, 'Precio': '12 Millones', 'Posicion': 'Extremo Derecho'},
-    24: {'Nombre' : 'Paulo Dybala', 'Edad': 28, 'Altura': 1.77, 'Precio': '35 Millones', 'Posicion': 'Media Punta'},
+    21: {'Nombre' : 'Paulo Dybala', 'Edad': 28, 'Altura': 1.77, 'Precio': '35 Millones', 'Posicion': 'Media Punta'},
     19: {'Nombre' : 'Nicolas Otamendi', 'Edad': 34, 'Altura': 1.83, 'Precio': '3.5 Millones', 'Posicion': 'Defensa centrañ'},
     1: {'Nombre' : 'Franco Armani', 'Edad': 35, 'Altura': 1.89, 'Precio': '3.5 Millones', 'Posicion': 'Portero'},
 }
@@ -329,12 +329,11 @@ for llave, valor in seleccionArgentina.items():
 print('Tenemos cargados en el diccionario: ', end=' ')
 print(len(seleccionArgentina))
 
-#seleccionArgentina['23'] = '23: {'Nombre' : 'Emiliano Martinez', 'Edad': 29, 'Altura': 1.96, 'Precio': '28 Millones', 'Posicion': 'Portero'}'
-#print(seleccionArgentina)
-#23: {'Nombre' : 'Emiliano Martinez', 'Edad': 29, 'Altura': 1.96, 'Precio': '28 Millones', 'Posicion': 'Portero'},
-#6: {'Nombre' : 'German Pezzella', 'Edad': 31, 'Altura': 1.83, 'Precio': '5 Millones', 'Posicion': 'Defensa Central'},
-#14: {'Nombre' : 'Exequiel Palacios', 'Edad': 23, 'Altura': 1.78, 'Precio': '22 Millones', 'Posicion': 'Centrocampista'},
-#20: {'Nombre' : 'Giovani Lo Celso', 'Edad': 26, 'Altura': 1.78, 'Precio': '22 Millones', 'Posicion': 'Centrocampista'},
+seleccionArgentina[23] = {'Nombre' : 'Emiliano Martinez', 'Edad': 29, 'Altura': 1.96, 'Precio': '28 Millones', 'Posicion': 'Portero'}
+seleccionArgentina[6] = {'Nombre' : 'German Pezzella', 'Edad': 31, 'Altura': 1.83, 'Precio': '5 Millones', 'Posicion': 'Defensa Central'},
+seleccionArgentina[14] = {'Nombre' : 'Exequiel Palacios', 'Edad': 23, 'Altura': 1.78, 'Precio': '22 Millones', 'Posicion': 'Centrocampista'},
+seleccionArgentina[20] = {'Nombre' : 'Giovani Lo Celso', 'Edad': 26, 'Altura': 1.78, 'Precio': '22 Millones', 'Posicion': 'Centrocampista'},
+print(seleccionArgentina)
 
 #Metodo de trabajos 'Pilas'
 #Pilas usando listas
@@ -381,3 +380,9 @@ print(cola)
 seRetira = cola.pop(0)
 print(f'Atendido el cliente: {seRetira}')
 print(cola)
+
+#mostramos como recorrer un diccionario con el ciclo for
+for i in seleccionArgentina:
+    print(f'{i}-> {seleccionArgentina[i]}')
+
+
