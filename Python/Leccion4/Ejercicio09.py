@@ -5,10 +5,10 @@
 # (sin contar espacios en blanco)
 # Ejemplo:  frase = vivir por siempre en paz
 #           frase final = vivirporsiempreenpaz
-#           Nº de caracteres = 21
+#           Nº de caracteres = 20
 
 frase = input("Digite una frase: ")
-espacio = " "
+espacio = "" #le quito el espacio para que no lo cuente
 for i in frase:
     if i != " ":
         espacio += i
