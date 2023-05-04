@@ -18,7 +18,7 @@ public class Persona {
     // Recibe valores = "Argumentos"
     // Retornar un valor = "Valor de retorno" (ese valor tambien puede retornar al metodo)
     // creamos un  metodo
-    //public inica que se puede usar fuera de esta clase
+    //public inica que se puede usar fuera de esta clase (es el modificador de acceso)
     //void indica que no regresa ningun tipo de informacion
     //usamos CamelCase en el nombre
     // los parentesis indicar que podemos recibir informacion (esta se conoce como argumento)

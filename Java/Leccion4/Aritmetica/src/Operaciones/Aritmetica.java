@@ -10,6 +10,26 @@ public class Aritmetica {
     int a; //por default es 0 (al no inicializarla int es 0, bolleano es false) 
     int b; //no estan vacias, tienen el valor default
     
+    /*El constructor es un método especial
+    El constructor cumple 3 objetivos
+    1 contruye un objeto
+    2.Reserva un espacio de memoria
+    3. Inicializa los trubutos de la clase
+    si voy a hacer el segundo y necesito el primero x defecto debo crearlo antes*/
+    //Primer ejemplo es el que crea x defecto java x defecto omitiendo valores
+    public Aritmetica(){ //Constructor 1 vacio
+        System.out.println("Se esta ejecutando este constructor número uno");
+    }
+    //Estamos viendo lo que se llama sobrecarga de constructores asignando valores
+    public Aritmetica(int a, int b){ //Constructor 2 
+        //(la diferencia con el primero es que en este le agrego parametos que inicializan los atributos)
+        //los parametros que ingresamos no pueden ser del tipo var nunca
+        //asi cuando java compila sabe cual usar
+        this.a = a; //this apunta al atributo, lo uso ccuando uso variables identicas
+        this.b = b; // this.b es el hit
+        System.out.println("Se esta ejecutando este constructor número dos");
+    }
+    
     //Metodo comienzo con el modificador de acceso = public void=vacio (hay otros)
     public void sumarNumeros(){ //este no devuelve solo imprime 
         int resultado = a+b;
@@ -35,3 +55,6 @@ public class Aritmetica {
         //sumarConRetorno (siempre que sea de la misma clase)
     }
 }
+//Proyecto siempre PascalCase
+//Paquete en minuscula
+//

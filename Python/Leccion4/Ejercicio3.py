@@ -14,3 +14,13 @@ while not salir:
         lista.append(numero)
 lista.sort() #la lista queda ordenada con esta funcion sort
 print(f'\nLista ordenada: \n{lista}')
+'''
+#hecho por mi
+lista = []
+numero = int(input('Digite un numero: '))
+while numero != 0:
+    numero = int(input('Digite un numero: '))
+    lista.append(numero)
+lista.sort()
+print(lista)
+'''

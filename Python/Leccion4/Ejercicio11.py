@@ -36,9 +36,12 @@ while True:
         else:
             print("No existe ese contacto")
     elif opcion ==3: #agregar un if en caso que este vacia la lista
-        print("Lista de contactos")
-        for clave, valor in agenda.items():
-            print(f"Nombre: {clave}, Teléfono: {valor}")
+        if len(agenda) == 0:
+            print("No hay contactos agendados aún")
+        else:
+            print("Lista de contactos")
+            for clave, valor in agenda.items():
+                print(f"Nombre: {clave}, Teléfono: {valor}")
     elif opcion ==4:
         print("\t Muchas Gracias")
         break

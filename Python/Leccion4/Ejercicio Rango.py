@@ -1,10 +1,10 @@
 '''
 sintaxis de range(inicio<opcional>, fin <requerimiento>, incremento<opcional>)
 
-Ejercicio 1: Iterar un rango de 0 a 10 e imprimir numeros divisibles entre 3
+Ejercicio 1: Iterar un rango de 0 a 10 e imprimir números divisibles entre 3
 ejemplo de ejecucion: 0,3,6,9
 
-Ejercicio 2: Crear un rango de nuemeros de 2 a 6 e imprimirlos
+Ejercicio 2: Crear un rango de números de 2 a 6 e imprimirlos
 ejemplo de ejecucion 2,3,4,5,6
 
 Ejercicio 3 : crear un rango de 3 a 10 pero con incremento de 2 en 2 en lugar de 1 en 1
@@ -13,8 +13,8 @@ Ejemplo de ejecucion: 3,5,7,9
 '''
 #Ejercicio 1
 print('Rango de 0 a 10 con numeros imprimibles entre 3')
-for i in range(11):
-    if i % 3 == 0:
+for i in range(11): #coloco 11 para que incluya a 10
+    if i % 3 == 0: #resto sea 0
         print(i)
 
 #Ejercicio 2

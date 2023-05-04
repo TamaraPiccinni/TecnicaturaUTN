@@ -1,4 +1,4 @@
-# En esta clase veremos la sentecncia if/else
+# En esta clase veremos la sentencia if/else
 '''
 condicion = True #pruebo cambiar valores falso o 10 o 0
 if condicion:

@@ -3,7 +3,7 @@ import math
 '''
 #Dada la siguiente tupla
 tupla = (13, 1, 8, 3, 2, 5, 8) #Definimos la tupla
-crear una lista que solo incluya los nuemero menores a 5
+crear una lista que solo incluya los número menores a 5
 e imprimirla por consola [1, 3, 2]
 '''
 

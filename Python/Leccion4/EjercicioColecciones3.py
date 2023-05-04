@@ -23,10 +23,13 @@ P = {'Nombre': 'Legolas', 'Clase': 'Arquero', 'Raza': 'Elfo Sindar'}
 personajes.append(P)
 
 #Tarea agregar por lo menos 3 personajes del señor de los anillos
+#Agregar un elemento
+
 P = {'Nombre': 'Gollum', 'Clase': 'Dueño del anillo', 'Raza': 'Hobbit'}
 personajes.append(P) #agregamos a la lista un personaje a la lista
 P = {'Nombre': 'Frodo', 'Clase': 'Portador del anillo', 'Raza': 'Hobbit'}
 personajes.append(P)
 P = {'Nombre': 'Sam', 'Clase': 'Jardinero', 'Raza': 'Hobbit'}
 personajes.append(P)
+
 pprint.pp(personajes)

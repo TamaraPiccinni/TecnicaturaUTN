@@ -35,7 +35,7 @@ while contador >= minimo:
 '''
 '''
 #Ciclo for (para hasta con paso hacer) numero determinado de iteraciones
-# vamos a iterar una cadena, es decir un arreglo de caracteres.ç
+# vamos a iterar una cadena, es decir un arreglo de caracteres.
 # iterar es recorrer un ciclo
 cadena = 'Hello'
 for letra in cadena: #in es indice
@@ -50,7 +50,7 @@ for letra in 'Alemania':
     if letra == 'a':
         print(f'Letra encontrada: {letra}')
         break #al agregar brake hace un corte (rompe el ciclo) cuando encuentra la primera
-else: #con el break ni siquiera llega al else cuando encuetra lo que busca
+else: #con el break ni siquiera llega al else cuando encuentra lo que busca
     print('Fin del ciclo for')
 '''
 '''
@@ -61,5 +61,6 @@ for i in range(6): #funcion de rango (lo hace de 0 a 5) por eso muestra del 0, 4
 
 for i in range(6):
     if i % 2 != 0: #diferente es decir impares en este caso
-        continue #es omitir eludir todos los numeros que sean impares
-        print(f'Valor : {i}') '''
+        continue #es omitir eludir todos los numeros que sean impares(al poner no imprime nada
+        print(f'Valor : {i}')
+'''
