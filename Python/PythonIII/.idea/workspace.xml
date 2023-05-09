@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="915178ab-2337-460e-b64a-f2d6e851652d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Excepciones/Archivos/Leccion2/ManejoArchivos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excepciones/Archivos/Leccion2/archivos_con_with.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excepciones/Archivos/Leccion2/leer_archivo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excepciones/Archivos/Leccion2/manejo_archivos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excepciones/Leccion01/NumerosIgualesException.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Excepciones/Leccion01/manejo_excepciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccion03/catalogo_peliculas/dominio/Pelicula.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccion03/catalogo_peliculas/dominio/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccion03/catalogo_peliculas/sevicio/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccion03/catalogo_peliculas/sevicio/catalogo_peliculas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccion03/catalogo_peliculas/test_catalogo_peliculas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Leccion3/LeccionClasesObjetos/src/Clases/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Leccion3/LeccionClasesObjetos/src/Clases/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Leccion4/Aritmetica/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Leccion4/Aritmetica/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Leccion4/Aritmetica/src/Operaciones/Aritmetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Leccion4/Aritmetica/src/Operaciones/Aritmetica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Leccion4/Aritmetica/src/Operaciones/PruebaAritmetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Leccion4/Aritmetica/src/Operaciones/PruebaAritmetica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Javascrip/Leccion01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javascrip/Leccion01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion3/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion4/Ejercicio Rango.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion4/Ejercicio Rango.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion4/Ejercicio Tupla.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion4/Ejercicio Tupla.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion4/Ejercicio11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion4/Ejercicio11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion4/Ejercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion4/Ejercicio3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion4/EjercicioColecciones3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion4/EjercicioColecciones3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion4/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion6/Aritmetica.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion6/Aritmetica.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion6/Persona.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion6/Persona.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion6/Persona2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion6/Persona2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion7/ClientePersona.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion7/ClientePersona.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion7/Persona.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion7/Persona.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion8/Vehiculo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion8/Vehiculo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lección13/Empleado.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lección13/Empleado.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lección13/Gerente.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lección13/Gerente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lección13/test_polimorfismo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lección13/test_polimorfismo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lección5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lección5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lección5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lección5/Ejercicio08.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lección5/Ejercicio08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lección5/EjercicioFunciones01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lección5/EjercicioFunciones01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lección5/EjercicioFunciones03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lección5/EjercicioFunciones03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lección5/EjercicioFunciones04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lección5/EjercicioFunciones04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lección5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lección5/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OZjyg9Br5GPZJxMFrRWkS6hGXh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Python.test_catalogo_peliculas">
+    <configuration name="Pelicula" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonIII" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion03/catalogo_peliculas/dominio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion03/catalogo_peliculas/dominio/Pelicula.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="catalogo_peliculas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonIII" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion03/catalogo_peliculas/sevicio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion03/catalogo_peliculas/sevicio/catalogo_peliculas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_catalogo_peliculas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonIII" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion03/catalogo_peliculas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion03/catalogo_peliculas/test_catalogo_peliculas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_catalogo_peliculas" />
+        <item itemvalue="Python.catalogo_peliculas" />
+        <item itemvalue="Python.Pelicula" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="915178ab-2337-460e-b64a-f2d6e851652d" name="Changes" comment="" />
+      <created>1681775253828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681775253828</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
