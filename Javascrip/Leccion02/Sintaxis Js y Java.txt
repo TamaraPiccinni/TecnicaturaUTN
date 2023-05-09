@@ -1,0 +1,57 @@
+Sintaxis similares entre Java y JavaScrip
+
+Operadores Simplificados
++=
+-=
+*=
+/=
+%= //Residuo
+**= //Exponente
+
+Operadores Aritmeticos
++
+-
+*
+/
+
+Operadores de Asignacion
+=
+Los operadores simplificados tambien asignan
+
+operadores de comparacion (tipo Bolleano)
+== Revisa el valor sin importar el tipo
+=== Revisa el valor y el tipo tambien en js (igualdad extricta)
+
+Documentar
+// = para una lienea de comentario
+/* */ = Para multiples lineas de comentario
+
+Secuencias de Escape
+\' = Mostrar una comilla simple dentro de una cadena en la salida de informacion
+\'' = Mostrar doble comilla dentro de una cadena en la salida de informacion
+\\ = Barra invertida, diagonal inversa, es para mostrar una black slash
+\n = Esto es un salto de linea
+\r = Retorno
+\t = tabulación
+\b = retoceso
+\f = salto de pagina
+
+Operador de Aumento
+++
+Ejemplo: let z =++a; //PreIncremento
+Ejemplo: z = a++; //PostIncremento
+
+Operador de decremento
+--
+Ejemplo: let z =--a; //PreDecremento
+Ejemplo: z = a; //PostDecremento
+
+Operador Distinto, Diferente (Booleano)
+!= Comprueba valores sin revisar el tipo
+!== Comprueba valores y tambien el tipo
+
+Operadores Relacionales
+<
+>
+<=
+>=
