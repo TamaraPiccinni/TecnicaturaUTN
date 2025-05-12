@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es"> <!-- Define el idioma de la página como español -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piedra, papel y tijera</title>
-    <script src="codigo.js"></script>
+  <meta charset="UTF-8"> <!-- Soporta caracteres latinos (acentos, ñ, etc.) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Escala para pantallas móviles -->
+  <title>Piedra, Papel o Tijera</title> <!-- Título que aparece en la pestaña del navegador -->
+
+  <!-- Vincula los estilos desde style.css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Vincula el archivo JavaScript externo que contiene la lógica del juego -->
+  <script src="codigo.js" defer></script>
+  <!-- El atributo 'defer' hace que el script se cargue después del HTML -->
 </head>
 
 <body>
+  <!-- Contenedor principal del juego -->
+  <div class="container">
+
+    <!-- Título del juego -->
+    <h1>Piedra 🥌, Papel 📄 o Tijera ✂️</h1>
+
+    <!-- Sección con los botones para elegir una jugada -->
+    <div class="buttons">
+      <button onclick="jugar(1)">🥌 Piedra</button> <!-- Llama a la función 'jugar' con 1 (piedra) -->
+      <button onclick="jugar(2)">📄 Papel</button>  <!-- Llama a 'jugar' con 2 (papel) -->
+      <button onclick="jugar(3)">✂️ Tijera</button> <!-- Llama a 'jugar' con 3 (tijera) -->
+    </div>
+
+    <!-- Contenedor donde se mostrará el resultado de cada ronda -->
+    <div id="resultado"></div>
+
+    <!-- Contador de triunfos y derrotas -->
+    <p id="marcador">Triunfos: 0 | Derrotas: 0</p>
+
+    <!-- Botón para reiniciar el juego -->
+    <button id="reiniciar" onclick="reiniciarJuego()">🔁 Reiniciar</button>
+  </div>
 </body>
-<h1>Piedra🥌, Papel📄 y Tijera✂️</h1>
 
 </html>
