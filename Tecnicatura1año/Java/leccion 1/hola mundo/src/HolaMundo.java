@@ -4,9 +4,10 @@ import java.util.Scanner;
 public class HolaMundo {
 
     public static void main(String[] args) { //psvm + tab y luego click derecho e importo
-        System.out.println("Hola mundo desde Java"); // sout + tab
+        System.out.println("Hola mundo desde Java") // sout + tab
     /*
-    int miVariable = 10;
+    int miVariable = 10
+
     System.out.println(miVariable);
     miVariable=5;
     System.out.println(miVariable);

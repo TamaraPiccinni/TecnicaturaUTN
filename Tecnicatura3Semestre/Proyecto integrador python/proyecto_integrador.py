@@ -3,7 +3,7 @@ class GrupoScout:
         self.integrantes = 0
         self.mes = 0
         self.vporcentaje = [0] * 100
-        self.vedad = [0] * 100 #cambiar a fecha de nacimiento
+        self.vedad = [0] * 100  # cambiar a fecha de nacimiento
         self.vdni = [0] * 100
         self.datos = [[0] * 100 for _ in range(100)]
         self.nombre_completo = [None] * 100
