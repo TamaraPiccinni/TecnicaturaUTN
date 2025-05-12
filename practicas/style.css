@@ -1,6 +1,6 @@
 /* Estilo general del cuerpo: centrado, tipografía limpia */
 body {
-  background-color: #f5f5f5;
+  background-color: #023f52;
   font-family: 'Segoe UI', sans-serif;
   display: flex;
   justify-content: center;
@@ -12,29 +12,30 @@ body {
 /* Contenedor central del juego */
 .container {
   text-align: center;
-  background-color: white;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  width: 300px;
+  background-color: rgb(27, 146, 130);
+  padding: 30px; // Espacio interno
+  border-radius: 16px; // Bordes redondeados
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px; // Ajusta el ancho según sea necesario
 }
 
 /* Título */
 h1 {
   margin-bottom: 20px;
-  color: #333;
+    font-size: 2.5rem;
+  color: #000000;
 }
 
 /* Botones de juego y reinicio */
 .buttons button, #reiniciar {
   margin: 5px;
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   cursor: pointer;
   border: none;
   border-radius: 8px;
-  background-color: #007bff;
-  color: white;
+  background-color: #4a04c3;
+  color: rgb(169, 235, 255);
   transition: background-color 0.3s;
 }
 
@@ -47,12 +48,12 @@ button:hover {
 #resultado {
   margin-top: 20px;
   font-weight: bold;
-  color: #444;
+  color: #270067;
 }
 
 /* Texto del marcador de triunfos y derrotas */
 #marcador {
   margin-top: 10px;
-  font-size: 0.9rem;
-  color: #555;
+  font-size:  1.5rem;
+  color: #1d0049;
 }
